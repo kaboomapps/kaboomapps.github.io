@@ -108,16 +108,21 @@ function randomFrom(array) {
   return array[Math.floor(Math.random() * array.length)];
 }
 var listMLG = [
+	'http://www.youtube.com/watch?v=X8zfE15AEz4',
+	'http://www.youtube.com/watch?v=QvQHVH01uW0',
 	'http://www.youtube.com/watch?v=V3G19bEc15k',
 	'http://www.youtube.com/watch?v=v_Q6AHVCHVE',
 	'http://www.youtube.com/watch?v=1di-Q9kKS88',
 	'http://www.youtube.com/watch?v=K-0eCsOStc4',
 	'http://www.youtube.com/watch?v=cydSuVfvus8',
+	'http://www.youtube.com/watch?v=xJAVH6ylBdo',
 	'http://www.youtube.com/watch?v=e_3dUgLXesk',
 	'http://www.youtube.com/watch?v=DRhkWUnYUeo',
 	'http://www.youtube.com/watch?v=DltFjg20NVs',
+	'http://www.youtube.com/watch?v=ySR7YPisf48',
 	'http://www.youtube.com/watch?v=GYjBWXS1-7c',
 	'http://www.youtube.com/watch?v=UQrWGgomiKk',
+	'http://www.youtube.com/watch?v=yPYVGxuCjds',
 	'http://www.youtube.com/watch?v=x5xd-J3hE48',
 	'http://www.youtube.com/watch?v=Y27ey39dRYQ',
 	'http://www.youtube.com/watch?v=08jL7gShLPM',
@@ -126,7 +131,10 @@ var listMLG = [
 	'http://www.youtube.com/watch?v=1ExuxDEXWgQ',
 	'http://www.youtube.com/watch?v=RvnA0THP3OE',
 	'http://www.youtube.com/watch?v=gLl9aSaE1Zs',
-	'http://www.youtube.com/watch?v=8aN-qtkilmo'
+	'http://www.youtube.com/watch?v=HVLApWoJufI',
+	'http://www.youtube.com/watch?v=8aN-qtkilmo',
+	'http://www.youtube.com/watch?v=XIXSy5wVju0',
+	'http://www.youtube.com/watch?v=-76teDYNUhk'
 ];
 
 new Konami(function() {
