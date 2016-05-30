@@ -20,7 +20,7 @@
     <header>
       <div class="inner">
         <h1>KaBoom Apps</h1>
-		<img src="images/asd.gif" style="position: absolute; left:450px; top: -30px;"></img>
+		<a href="#" data-placement="bottom" style="position: absolute; left:450px; top: -30px;" data-toggle="tooltip" title="Hi ha easter eggs amagats en aquesta web. Només et diré: MLG."><img src="images/asd.gif"></img></a>
         <h2><i>Pensar, dissenyar, programar ...</i></h2>
       </div>
     </header>
@@ -66,10 +66,17 @@
   </body>
   
     <!-- Magnific Popup jQuery -->
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="javascripts/jquery.magnific-popup.min.js"></script>
     <link href="stylesheets/magnific-popup.min.css" rel="stylesheet" type="text/css">
     <link href="stylesheets/popup-mods.css" rel="stylesheet" type="text/css">
     <script src="javascripts/popup-mods.js"></script>
-	<script src="javascripts/konami.js"></script>
+    <script src="javascripts/konami.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
 </html>
